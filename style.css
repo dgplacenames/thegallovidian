@@ -67,7 +67,11 @@ span.sc {
 .poem{
     margin-left: 1rem;
   }
-
+.stanza {
+  text-indent: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .stanza_even {
   text-indent: 1rem;
   margin-top: 1rem;
@@ -75,7 +79,6 @@ span.sc {
 }
 .stanza_even .verse:nth-child(even){
   text-indent: 2rem;
-
 }
 .stanza_3n {
     text-indent: 1rem;

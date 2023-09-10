@@ -46,7 +46,9 @@ p {
   margin: 0;
   text-indent: 1em;
 }
-
+p.note{
+  font-size: 80%;
+}
 em {
   font-style: italic;
 }

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Noto Serif';
+  font-size: 13pt;
+  line-height: 20pt;
+  margin: 0;
+}
+nav {
+  margin: 1rem 3rem;
+  max-width: 37rem;
+  font-size: 90%;
+  text-align: center;
+}
+footer {
+  margin: 1rem 3rem;
+  max-width: 37rem;
+  font-size: 90%;
+  text-align: center;
+}
+main {
+  margin: 3rem;
+  max-width: 37rem;
+  text-align: justify;
+}
+h1 {
+  font-weight: normal;
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 18pt;
+  line-height: 24pt;
+  letter-spacing: 1px;
+  margin: 1em 0 1em 0;
+}
+h2 {
+  font-weight: normal;
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 14pt;
+  line-height: 20pt;
+  margin: 1em 0 1em 0;
+}
+p {
+  margin: 0;
+  text-indent: 1em;
+}
+
+em {
+  font-style: italic;
+}
+span.sc {
+  font-variant: small-caps;
+}
+/* Poetry */
+.poem{
+    margin-left: 1rem;
+  }
+
+.stanza_even {
+  text-indent: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.stanza_even .verse:nth-child(even){
+  text-indent: 2rem;
+
+}
+.stanza_3n {
+    text-indent: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.stanza_3n .verse:nth-child(3n){
+  text-indent: 2rem;
+}
+  .verse{
+    text-indent: 1rem;
+  }

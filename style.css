@@ -42,6 +42,14 @@ h2 {
   line-height: 20pt;
   margin: 1em 0 1em 0;
 }
+h2.subtitle {
+  font-weight: normal;
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 16pt;
+  line-height: 20pt;
+  margin: 1em 0 1em 0;
+}
 h2.byline {
   font-weight: normal;
   font-variant: small-caps;

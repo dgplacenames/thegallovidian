@@ -72,8 +72,12 @@ span.sc {
   font-variant: small-caps;
 }
 /* Poetry */
+.wrap{
+    text-align: center;
+}
 .poem{
-    margin-left: 1rem;
+    display: inline-block;
+    text-align: left;
   }
 .stanza {
   text-indent: 1rem;

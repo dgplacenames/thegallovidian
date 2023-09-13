@@ -78,6 +78,7 @@ span.sc {
 .poem{
     display: inline-block;
     text-align: left;
+    background-color: aqua;
   }
 .stanza {
   text-indent: 1rem;

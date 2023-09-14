@@ -100,6 +100,14 @@ span.sc {
 .stanza_3n .verse:nth-child(3n){
   text-indent: 2rem;
 }
+.stanza_4n {
+  text-indent: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.stanza_4n .verse:nth-child(4n){
+text-indent: 2rem;
+}
   .verse{
     text-indent: 1rem;
   }
